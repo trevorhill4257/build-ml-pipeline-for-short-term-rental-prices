@@ -4,6 +4,7 @@
 
 - **GitHub repository:** https://github.com/trevorhill4257/build-ml-pipeline-for-short-term-rental-prices
 - **Weights & Biases project (`nyc_airbnb`):** https://wandb.ai/trevorhill4257-western-governors-university/nyc_airbnb
+- **W&B Report (publicly viewable):** https://api.wandb.ai/links/trevorhill4257-western-governors-university/szvwfhht
 
 The pipeline has been released on GitHub as versions `1.0.0` and `1.0.1`. Release `1.0.1` adds a geolocation cleaning step and trains successfully on `sample2.csv`.
 You are working for a property management company renting rooms and properties for short periods of 
