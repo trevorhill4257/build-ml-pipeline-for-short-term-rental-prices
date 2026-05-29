@@ -599,3 +599,19 @@ Please, make sure all steps are using **the same** python version and that you h
 ## License
 
 [License](LICENSE.txt)
+
+## Weights & Biases Evidence
+
+The W&B project for this submission lives under a university (WGU) organization, which disables public link sharing (only Team/Restricted visibility is available). The screenshots below document the project for reviewers who cannot open the live link.
+
+![Runs table](submission_evidence/01_runs_table.jpg)
+*All experiment runs in the nyc_airbnb project (data steps, the hyperparameter sweep, and the final release runs).*
+
+![Artifacts](submission_evidence/02_artifacts_tree.jpg)
+*Artifact catalog: clean_sample, model_export/random_forest_export, raw_data, test_data, and trainval_data.*
+
+![Production model alias](submission_evidence/03_prod_model_alias.jpg)
+*The selected best model is tagged `prod` (random_forest_export:v3).*
+
+![Pipeline lineage](submission_evidence/04_lineage_dag.jpg)
+*End-to-end artifact lineage from raw data through cleaning, splitting, training, and the exported production model.*
